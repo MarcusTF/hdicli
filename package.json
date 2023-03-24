@@ -1,6 +1,6 @@
 {
   "name": "hdicli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "CLI tool to convert OpenAPI 3.0.0 to Zod types",
   "main": "bin/hdicli",
   "author": "Marcus Fernandez",
