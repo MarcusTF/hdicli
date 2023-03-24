@@ -1,0 +1,23 @@
+{
+  "name": "hdicli",
+  "version": "0.1.4",
+  "description": "CLI tool to convert OpenAPI 3.0.0 to Zod types",
+  "main": "bin/hdicli",
+  "author": "Marcus Fernandez",
+  "license": "",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "prettier": "^2.8.6",
+    "superstruct": "^1.0.3",
+    "typescript": "^5.0.2",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "@types/prettier": "^2.7.2",
+    "@types/yargs": "^17.0.23"
+  },
+  "bin": {
+    "hdicli": "./bin/hdicli"
+  }
+}
